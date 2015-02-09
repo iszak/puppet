@@ -1,3 +1,5 @@
 .bundle/
+.librarian/
+.tmp/
 .idea/
 .DS_Store
