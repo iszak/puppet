@@ -40,21 +40,21 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-profile.git
   ref: master
-  sha: ca0c637e83203f78e4e7997accc4cb5e994a5082
+  sha: bda8dc5ea50419f31245aa69d3381ffe6ceedc68
   specs:
     iszak-profile (0.0.1)
 
 GIT
   remote: git://github.com/iszak/puppet-project.git
   ref: master
-  sha: 0cd655349b6e0e28b7b6839369f8ab9aa50ba35b
+  sha: 838bc34847eb52f81cf7104c769841c47b128b3f
   specs:
     iszak-project (0.0.1)
 
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: f81b75dc2e227d6fc78b79738b841d294f336e83
+  sha: fd6eba2bc01ec1500c6519e219283ff6726e1987
   specs:
     iszak-role (0.0.1)
 

@@ -1,0 +1,9 @@
+---
+role::crowdwish_backend::user: crowdwish
+role::crowdwish_backend::owner: crowdwish
+role::crowdwish_backend::group: crowdwish
+
+role::crowdwish_backend::repo_path: public/backend
+role::crowdwish_backend::web_host: api.crowdwish.com
+
+role::crowdwish_backend::environment: production

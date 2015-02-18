@@ -1,0 +1,13 @@
+---
+role::crowdwish_backend::user: vagrant
+role::crowdwish_backend::owner: vagrant
+role::crowdwish_backend::group: vagrant
+
+role::crowdwish_backend::database_name: crowdwish_development
+role::crowdwish_backend::database_username: crowdwish_development
+role::crowdwish_backend::database_password: md5554957fbfe164e6308e0a8dd09725ffe
+
+role::crowdwish_backend::repo_path: public/crowdwish-backend
+role::crowdwish_backend::web_host: api.crowdwish.dev
+
+role::crowdwish_backend::environment: development

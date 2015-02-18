@@ -1,11 +1,2 @@
 ---
-project::static:
-    psdless:
-        user: psdless
-        owner: psdless
-        group: psdless
-
-        repo_path: public
-        repo_source: git@bitbucket.org:iszak/psdless.git
-
-        web_host: psdless.dev
+role::psdless::repo_source: git@bitbucket.org:iszak/psdless.git

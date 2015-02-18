@@ -1,0 +1,8 @@
+---
+role::crowdwish_client::user: crowdwish
+role::crowdwish_client::owner: crowdwish
+role::crowdwish_client::group: crowdwish
+
+role::crowdwish_client::repo_path: public/client
+
+role::crowdwish_client::web_host: crowdwish.com

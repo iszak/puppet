@@ -1,29 +1,34 @@
 ---
-# file:
-#     vagrant_ssh_config:
-#         ensure: present
+classes:
+    - role::1001_beers_api
+    - role::1001_beers_website
+
+    - role::crowdwish_backend
+    - role::crowdwish_client
+
+    - role::blog
+
+    - role::phoenix_client
+    - role::phoenix_server
+
+    - role::psdless
+
+    - role::uploadir_api
+
+
+# package:
+#     grunt-cli:
+#         ensure: 0.1.13
 #         require:
-#             - User[vagrant]
-#             - File[vagrant_ssh]
-#         path: /home/vagrant/.ssh/config
-#         content: "Host git.kdigital.net\n  IdentityFile ~/.ssh/crowdwish_gitlab.key"
-#         owner: vagrant
-#         group: vagrant
+#             - Class[nodejs]
+#             - Package[npm]
+#         provider: npm
 
-
-package:
-    grunt-cli:
-        ensure: 0.1.13
-        require:
-            - Class[nodejs]
-            - Package[npm]
-        provider: npm
-
-    compass:
-        ensure: 1.0.1
-        require: Class[ruby::dev]
-        provider: gem
+#     compass:
+#         ensure: 1.0.1
+#         require: Class[ruby::dev]
+#         provider: gem
 
 
 # Node.js
-nodejs::dev_package: true
+# nodejs::dev_package: true

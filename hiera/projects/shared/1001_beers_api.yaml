@@ -1,0 +1,3 @@
+---
+role::1001_beers_api::repo_source: git@github.com:iszak/1001-beers-api.git
+role::1001_beers_api::web_path: public/

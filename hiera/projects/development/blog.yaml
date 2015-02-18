@@ -1,17 +1,7 @@
 ---
-project::ruby:
-    blog:
-        user: vagrant
-        owner: vagrant
-        group: vagrant
+role::blog::user: vagrant
+role::blog::owner: vagrant
+role::blog::group: vagrant
 
-        repo_path: public/blog
-
-        environment: development
-
-ruby::rake:
-    blog_generate:
-        rails_env: development
-        user: vagrant
-        group: vagrant
-        cwd: /home/vagrant/public/blog/
+role::blog::repo_path: public/blog
+role::blog::web_host: blog.dev

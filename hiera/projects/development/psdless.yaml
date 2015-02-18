@@ -1,8 +1,7 @@
 ---
-project::static:
-    psdless:
-        user: vagrant
-        owner: vagrant
-        group: vagrant
+role::psdless::user: vagrant
+role::psdless::owner: vagrant
+role::psdless::group: vagrant
 
-        repo_path: public/psdless
+role::psdless::repo_path: public/psdless
+role::psdless::web_host: psdless.dev

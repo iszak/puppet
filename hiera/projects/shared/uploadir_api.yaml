@@ -1,0 +1,3 @@
+---
+role::uploadir_api::repo_source: git@bitbucket.org:iszak/uploadir-api.git
+role::uploadir_api::web_path: public/

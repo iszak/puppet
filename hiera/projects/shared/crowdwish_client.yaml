@@ -1,0 +1,2 @@
+---
+role::crowdwish_client::repo_source: git@git.kdigital.net:crowdwish/client.git

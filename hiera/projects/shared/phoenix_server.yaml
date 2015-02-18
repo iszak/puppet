@@ -1,0 +1,3 @@
+---
+role::phoenix_server::repo_source: git@bitbucket.org:iszak/phoenix-server.git
+role::phoenix_server::web_path: public/
