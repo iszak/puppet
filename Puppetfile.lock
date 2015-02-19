@@ -54,7 +54,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: fd6eba2bc01ec1500c6519e219283ff6726e1987
+  sha: d15c7cf212d3301a558e02e9072898ea6ce75d76
   specs:
     iszak-role (0.0.1)
 
