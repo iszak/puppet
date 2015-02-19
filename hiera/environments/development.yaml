@@ -3,10 +3,10 @@ classes:
     - role::1001_beers_api
     - role::1001_beers_website
 
+    - role::blog
+
     - role::crowdwish_backend
     - role::crowdwish_client
-
-    - role::blog
 
     - role::phoenix_client
     - role::phoenix_server
@@ -16,19 +16,5 @@ classes:
     - role::uploadir_api
 
 
-# package:
-#     grunt-cli:
-#         ensure: 0.1.13
-#         require:
-#             - Class[nodejs]
-#             - Package[npm]
-#         provider: npm
-
-#     compass:
-#         ensure: 1.0.1
-#         require: Class[ruby::dev]
-#         provider: gem
-
-
 # Node.js
-# nodejs::dev_package: true
+nodejs::dev_package: true
