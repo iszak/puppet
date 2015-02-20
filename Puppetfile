@@ -19,3 +19,4 @@ mod 'iszak/crashplan', :git => 'git://github.com/iszak/puppet-crashplan.git'
 
 mod 'iszak/role', :git => 'git://github.com/iszak/puppet-role.git'
 mod 'iszak/profile', :git => 'git://github.com/iszak/puppet-profile.git'
+mod 'iszak/account', :git => 'git://github.com/iszak/puppet-account.git'

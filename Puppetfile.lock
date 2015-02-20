@@ -31,6 +31,13 @@ FORGE
     puppetlabs-vcsrepo (1.2.0)
 
 GIT
+  remote: git://github.com/iszak/puppet-account.git
+  ref: master
+  sha: 41c064ca81a3722c1fa3efa29a421bf6a1e5a551
+  specs:
+    iszak-account (0.0.1)
+
+GIT
   remote: git://github.com/iszak/puppet-crashplan.git
   ref: master
   sha: 00ade10cc42230d975beaf2aa880a14a38cd78e5
@@ -54,13 +61,14 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: d15c7cf212d3301a558e02e9072898ea6ce75d76
+  sha: a3e9ddd52d3f9b209bc3dabe653cccb22c715448
   specs:
     iszak-role (0.0.1)
 
 DEPENDENCIES
   garethr-golang (~> 0.1.1)
   garethr-rustlang (~> 0.0.1)
+  iszak-account (>= 0)
   iszak-crashplan (>= 0)
   iszak-profile (>= 0)
   iszak-project (>= 0)
