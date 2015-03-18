@@ -2,10 +2,10 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'puppetlabs/stdlib', '~> 4.5.1'
 mod 'puppetlabs/concat', '~> 1.2.0'
-mod 'puppetlabs/apache', '~> 1.3.0'
+mod 'puppetlabs/apache', '~> 1.4.0'
 mod 'puppetlabs/ntp', '~> 3.3.0'
-mod 'puppetlabs/apt', '~> 1.7.0'
-mod 'puppetlabs/postgresql', '~> 4.1.0'
+mod 'puppetlabs/apt', '~> 1.8.0'
+mod 'puppetlabs/postgresql', '~> 4.2.0'
 mod 'puppetlabs/nodejs', '~> 0.7.1'
 mod 'puppetlabs/ruby', '~> 0.4.0'
 mod 'puppetlabs/vcsrepo', '~> 1.2.0'

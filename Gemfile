@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "librarian-puppet", "~> 2.0.1"
+gem "librarian-puppet", "~> 2.1.0"
 
 group :development do
   gem "rake", "~> 10.4.2"
@@ -8,5 +8,5 @@ group :development do
   gem "facter", "~> 2.4.1"
 
   gem "puppet-lint", "~> 1.1.0"
-  gem "puppet-syntax", "~> 1.4.1"
+  gem "puppet-syntax", "~> 2.0.0"
 end
