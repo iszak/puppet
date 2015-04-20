@@ -1,7 +1,7 @@
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'puppetlabs/stdlib', '~> 4.5.1'
-mod 'puppetlabs/concat', '~> 1.2.0'
+mod 'puppetlabs/stdlib', '~> 4.6.0'
+mod 'puppetlabs/concat', '~> 1.2.1'
 mod 'puppetlabs/apache', '~> 1.4.0'
 mod 'puppetlabs/ntp', '~> 3.3.0'
 mod 'puppetlabs/apt', '~> 1.8.0'
