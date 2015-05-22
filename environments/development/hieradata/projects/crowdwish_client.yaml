@@ -1,0 +1,10 @@
+---
+role::crowdwish_client::user: vagrant
+role::crowdwish_client::owner: vagrant
+role::crowdwish_client::group: vagrant
+
+role::crowdwish_client::repo_path: public/crowdwish-client
+
+role::crowdwish_client::web_host: crowdwish.dev
+
+role::crowdwish_client::repo_source: git@git.kdigital.net:crowdwish/client.git

@@ -1,0 +1,12 @@
+---
+role::1001_beers_api::user: 1001_beers
+role::1001_beers_api::owner: 1001_beers
+role::1001_beers_api::group: 1001_beers
+
+role::1001_beers_api::repo_path: public/
+role::1001_beers_api::web_host: api.1001-beers.com
+
+role::1001_beers_api::environment: production
+
+role::1001_beers_api::repo_source: git@github.com:iszak/1001-beers-api.git
+role::1001_beers_api::web_path: public/

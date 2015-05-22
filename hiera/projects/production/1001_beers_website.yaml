@@ -1,7 +1,0 @@
----
-role::1001_beers_website::user: 1001_beers
-role::1001_beers_website::owner: 1001_beers
-role::1001_beers_website::group: 1001_beers
-
-role::1001_beers_website::repo_path: public/
-role::1001_beers_website::web_host: 1001-beers.com

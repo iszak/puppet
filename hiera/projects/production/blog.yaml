@@ -1,7 +1,0 @@
----
-role::blog::user: blog
-role::blog::owner: blog
-role::blog::group: blog
-
-role::blog::repo_path: public/
-role::blog::web_host: iszak.net

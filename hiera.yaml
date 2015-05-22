@@ -2,44 +2,12 @@
 :backends: yaml
 
 :yaml:
-  :datadir: /vagrant/provisioners/puppet/hiera/
+    :datadir: /etc/puppet/environments/production/hieradata/
 
 :hierarchy:
-    - private
-
-    - environments/development
-
-    - projects/development/1001_beers_api
-    - projects/shared/1001_beers_api
-
-    - projects/development/1001_beers_website
-    - projects/shared/1001_beers_website
-
-    - projects/development/blog
-    - projects/shared/blog
-
-    - projects/development/crowdwish_backend
-    - projects/shared/crowdwish_backend
-
-    - projects/development/crowdwish_client
-    - projects/shared/crowdwish_client
-
-    - projects/development/phoenix_client
-    - projects/shared/phoenix_client
-
-    - projects/development/phoenix_server
-    - projects/shared/phoenix_server
-
-    - projects/development/psdless
-    - projects/shared/psdless
-
-    - projects/development/uploadir_api
-    - projects/shared/uploadir_api
-
-    - users/vagrant
-    - users/user
-
-    - common
+    - users/iszak
+    - global
+    - defaults
 
 :logger: console
 

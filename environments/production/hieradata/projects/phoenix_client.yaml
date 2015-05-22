@@ -1,0 +1,9 @@
+---
+role::phoenix_client::user: phoenix
+role::phoenix_client::owner: phoenix
+role::phoenix_client::group: phoenix
+
+role::phoenix_client::repo_path: public/client
+role::phoenix_client::web_host: phoenixrpg.com
+
+role::phoenix_client::repo_source: git@bitbucket.org:iszak/phoenix-client.git

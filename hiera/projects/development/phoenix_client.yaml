@@ -1,7 +1,0 @@
----
-role::phoenix_client::user: vagrant
-role::phoenix_client::owner: vagrant
-role::phoenix_client::group: vagrant
-
-role::phoenix_client::repo_path: public/phoenix-client
-role::phoenix_client::web_host: phoenix.dev

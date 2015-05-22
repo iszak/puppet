@@ -1,0 +1,16 @@
+---
+role::phoenix_server::user: vagrant
+role::phoenix_server::owner: vagrant
+role::phoenix_server::group: vagrant
+
+role::phoenix_server::database_name: phoenix_development
+role::phoenix_server::database_username: phoenix_development
+role::phoenix_server::database_password: md5db530028e423b5b0c779ff74bebbc382
+
+role::phoenix_server::repo_path: public/phoenix-server
+role::phoenix_server::web_host: api.phoenix.dev
+
+role::phoenix_server::environment: development
+
+role::phoenix_server::repo_source: git@bitbucket.org:iszak/phoenix-server.git
+role::phoenix_server::web_path: public/

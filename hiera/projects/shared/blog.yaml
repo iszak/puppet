@@ -1,3 +1,0 @@
----
-role::blog::repo_source: git@github.com:iszak/blog.git
-role::blog::web_path: _site/

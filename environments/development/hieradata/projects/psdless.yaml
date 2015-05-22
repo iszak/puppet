@@ -1,0 +1,9 @@
+---
+role::psdless::user: vagrant
+role::psdless::owner: vagrant
+role::psdless::group: vagrant
+
+role::psdless::repo_path: public/psdless
+role::psdless::web_host: psdless.dev
+
+role::psdless::repo_source: git@bitbucket.org:iszak/psdless.git

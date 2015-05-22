@@ -1,3 +1,0 @@
----
-role::crowdwish_backend::repo_source: git@git.kdigital.net:crowdwish/backend.git
-role::crowdwish_backend::web_path: web/public

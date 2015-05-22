@@ -1,0 +1,12 @@
+---
+role::phoenix_server::user: phoenix
+role::phoenix_server::owner: phoenix
+role::phoenix_server::group: phoenix
+
+role::phoenix_server::repo_path: public/server
+role::phoenix_server::web_host: api.phoenixrpg.com
+
+role::phoenix_server::environment: production
+
+role::phoenix_server::repo_source: git@bitbucket.org:iszak/phoenix-server.git
+role::phoenix_server::web_path: public/

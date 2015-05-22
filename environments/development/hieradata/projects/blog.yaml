@@ -1,0 +1,10 @@
+---
+role::blog::user: vagrant
+role::blog::owner: vagrant
+role::blog::group: vagrant
+
+role::blog::repo_path: public/blog
+role::blog::web_host: blog.dev
+
+role::blog::repo_source: git@github.com:iszak/blog.git
+role::blog::web_path: _site/
