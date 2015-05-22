@@ -3,10 +3,11 @@
     - yaml
 
 :yaml:
-    :datadir: "/etc/puppet/hieradata"
+    :datadir: "/etc/puppet/environments/%{::environment}/hieradata/"
 
 :hierarchy:
-    - users/
+    - private
+    - users/vagrant
     - defaults
 
 :logger: console

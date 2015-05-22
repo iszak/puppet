@@ -1,4 +1,3 @@
 ---
 classes:
-    - apache
-    - postgresql
+    - role::uploadir_api

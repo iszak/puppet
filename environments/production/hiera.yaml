@@ -1,0 +1,16 @@
+---
+:backends:
+    - yaml
+
+:yaml:
+    :datadir: "/etc/puppet/environments/%{::environment}/hieradata/"
+
+:hierarchy:
+    - private
+    - projects/uploadir_api
+    - users/iszak
+    - defaults
+
+:logger: console
+
+:merge_behavior: deeper
