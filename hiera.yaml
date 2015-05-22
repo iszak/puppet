@@ -1,12 +1,12 @@
 ---
-:backends: yaml
+:backends:
+    - yaml
 
 :yaml:
-    :datadir: /etc/puppet/environments/production/hieradata/
+    :datadir: "/etc/puppet/hieradata"
 
 :hierarchy:
-    - users/iszak
-    - global
+    - users/
     - defaults
 
 :logger: console
