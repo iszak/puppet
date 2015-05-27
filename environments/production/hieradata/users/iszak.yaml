@@ -1,22 +1,8 @@
 ---
-user:
+account:
     iszak:
-        ensure: present
-        managehome: true
-
-postgresql::server::role:
-    iszak:
-        password_hash: md526577d8b2a8a422e540df1d4be6f0e5d
-        createdb: true
-        createrole: true
-        superuser: true
-        replication: true
-
-git::config:
-    user.name:
+        email: iszak.bryan@gmail.com
+        name: Iszak Bryan
         user: iszak
-        value: Iszak Bryan
-
-    user.email:
-        user: iszak
-        value: iszak.bryan@gmail.com
+        postgresql: true
+        postgresql_password: password
