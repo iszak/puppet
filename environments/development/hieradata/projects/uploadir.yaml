@@ -8,7 +8,7 @@ role::uploadir_api::database_username: uploadir_development
 role::uploadir_api::database_password: md526abc04f4e0fd5082e2a2baccf35a1b1
 
 role::uploadir_api::repo_path: public/uploadir-api
-role::uploadir_api::web_host: api.uploadir.dev
+role::uploadir_api::web_host: uploadir.dev
 
 role::uploadir_api::environment: development
 

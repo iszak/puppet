@@ -7,7 +7,7 @@ role::uploadir_api::database_name: uploadir_production
 role::uploadir_api::database_username: uploadir_production
 
 role::uploadir_api::repo_path: public/api
-role::uploadir_api::web_host: api.uploadir.com
+role::uploadir_api::web_host: uploadir.com
 
 role::uploadir_api::environment: production
 
