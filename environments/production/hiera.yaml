@@ -8,6 +8,8 @@
 :hierarchy:
     - private
     - projects/uploadir
+    - projects/1001_beers_api
+    - projects/1001_beers_website
     - users/iszak
     - defaults
 
