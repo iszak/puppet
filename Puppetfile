@@ -14,6 +14,8 @@ mod 'puppetlabs/git', '~> 0.3.0'
 mod 'garethr/golang', '~> 0.1.1'
 mod 'garethr/rustlang', '~> 0.0.1'
 
+mod 'saz/ssh', '~> 2.6.0'
+
 mod 'iszak/project', :git => 'git://github.com/iszak/puppet-project.git'
 mod 'iszak/crashplan', :git => 'git://github.com/iszak/puppet-crashplan.git'
 
