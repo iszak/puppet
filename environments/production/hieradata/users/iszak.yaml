@@ -6,3 +6,16 @@ account:
         user: iszak
         postgresql: true
         postgresql_password: password
+
+package:
+    vim:
+        ensure: present
+
+    tmux:
+        ensure: present
+
+    screen:
+        ensure: present
+
+    irssi:
+        ensure: present
