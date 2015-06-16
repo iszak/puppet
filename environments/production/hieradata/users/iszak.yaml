@@ -14,8 +14,11 @@ package:
     tmux:
         ensure: present
 
-    screen:
+    mosh:
         ensure: present
 
     irssi:
+        ensure: present
+
+    irssi-plugin-xmpp:
         ensure: present
