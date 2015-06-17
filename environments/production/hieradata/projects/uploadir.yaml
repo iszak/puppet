@@ -6,12 +6,10 @@ role::uploadir_api::group: uploadir
 role::uploadir_api::database_name: uploadir_production
 role::uploadir_api::database_username: uploadir_production
 
-role::uploadir_api::repo_path: public/api
+role::uploadir_api::repo_path: api/
 role::uploadir_api::web_host: uploadir.com
 
 role::uploadir_api::environment: production
 
 role::uploadir_api::repo_source: git@bitbucket.org:iszak/uploadir-api.git
 role::uploadir_api::web_path: public/
-
-role::uploadir_api::capistranl: true
