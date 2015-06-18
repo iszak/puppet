@@ -1,2 +1,4 @@
+.bundle/
 .librarian/
 .tmp/
+vendor/

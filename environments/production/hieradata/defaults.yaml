@@ -1,8 +1,5 @@
 ---
 classes:
     - role::uploadir_api
-    - role::phoenix_client
-    - role::1001_beers_api
-    - role::1001_beers_website
 
 postgresql::server::listen_addresses: '*'
