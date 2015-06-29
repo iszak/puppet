@@ -22,3 +22,6 @@ package:
 
     irssi-plugin-xmpp:
         ensure: present
+
+    htop:
+        ensure: present
