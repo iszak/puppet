@@ -1,9 +1,0 @@
----
-role::1001_beers_website::user: vagrant
-role::1001_beers_website::owner: vagrant
-role::1001_beers_website::group: vagrant
-
-role::1001_beers_website::repo_path: public/1001-beers-website
-role::1001_beers_website::web_host: 1001-beers.dev
-
-role::1001_beers_website::repo_source: git@github.com:iszak/1001-beers-website.git

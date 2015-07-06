@@ -1,23 +1,9 @@
 ---
-
-user:
+account:
     USERNAME:
-        ensure: present
-        managehome: true
-
-postgresql::server::role:
-    USERNAME:
-        password_hash: md5PASSWORD_HASH
-        createdb: true
-        createrole: true
-        superuser: true
-        replication: true
-
-git::config:
-    user.name:
+        email: EMAIL
+        name: FULLNAME
         user: USERNAME
-        value: FULLNAME
 
-    user.email:
-        user: USERNAME
-        value: EMAIL
+        postgresql: true
+        postgresql_password: md5PASSWORD_HASH

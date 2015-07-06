@@ -1,0 +1,9 @@
+---
+role::psdless::user: psdless
+role::psdless::owner: psdless
+role::psdless::group: psdless
+
+role::psdless::repo_path: psdless
+role::psdless::web_host: psdless.dev
+
+role::psdless::repo_source: git@bitbucket.org:iszak/psdless.git

@@ -7,7 +7,24 @@
 
 :hierarchy:
     - private
-    - users/vagrant
+
+    - users/user
+
+    - roles/1001_beers_api
+    - roles/1001_beers_website
+
+    - roles/blog
+
+    - roles/crowdwish_backend
+    - roles/crowdwish_client
+
+    - roles/phoenix_client
+    - roles/phoenix_server
+
+    - roles/psdless
+
+    - roles/uploadir_api
+
     - defaults
 
 :logger: console

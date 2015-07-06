@@ -14,7 +14,3 @@ classes:
     - role::psdless
 
     - role::uploadir_api
-
-
-# Node.js
-nodejs::dev_package: true
