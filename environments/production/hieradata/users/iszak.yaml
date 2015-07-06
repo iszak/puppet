@@ -4,24 +4,14 @@ account:
         email: iszak.bryan@gmail.com
         name: Iszak Bryan
         user: iszak
+
         postgresql: true
         postgresql_password: password
 
-package:
-    vim:
-        ensure: present
-
-    tmux:
-        ensure: present
-
-    mosh:
-        ensure: present
-
-    irssi:
-        ensure: present
-
-    irssi-plugin-xmpp:
-        ensure: present
-
-    htop:
-        ensure: present
+        packages:
+            - vim
+            - tmux
+            - mosh
+            - irssi
+            - irssi-plugin-xmpp
+            - htop
