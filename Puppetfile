@@ -17,7 +17,6 @@ mod 'garethr/rustlang', '~> 0.0.1'
 mod 'saz/ssh', '~> 2.8.1'
 
 mod 'iszak/project', :git => 'git://github.com/iszak/puppet-project.git'
-mod 'iszak/crashplan', :git => 'git://github.com/iszak/puppet-crashplan.git'
 
 mod 'iszak/role', :git => 'git://github.com/iszak/puppet-role.git'
 mod 'iszak/profile', :git => 'git://github.com/iszak/puppet-profile.git'

@@ -20,7 +20,7 @@ FORGE
       puppetlabs-stdlib (< 5.0.0, >= 2.2.1)
     puppetlabs-ntp (4.0.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
-    puppetlabs-postgresql (4.4.1)
+    puppetlabs-postgresql (4.4.2)
       puppetlabs-apt (< 3.0.0, >= 1.8.0)
       puppetlabs-concat (< 2.0.0, >= 1.1.0)
       puppetlabs-stdlib (~> 4.0)
@@ -35,18 +35,11 @@ FORGE
 GIT
   remote: git://github.com/iszak/puppet-account.git
   ref: master
-  sha: f5f114ad44ee82feb4d32dc3330fd6308828e7b2
+  sha: b8270cc51d8fda1512b3d37de611bb82d11a3f07
   specs:
     iszak-account (0.0.1)
       puppetlabs-git (< 1.0.0, >= 0.3.0)
       puppetlabs-vcsrepo (< 2.0.0, >= 1.3.0)
-
-GIT
-  remote: git://github.com/iszak/puppet-crashplan.git
-  ref: master
-  sha: cc0a7959909794de992caac0ae8807ef8f9cffce
-  specs:
-    iszak-crashplan (0.0.1)
 
 GIT
   remote: git://github.com/iszak/puppet-profile.git
@@ -64,7 +57,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-project.git
   ref: master
-  sha: e3357418570bbb16dbe16a8b0b76fc2cf50a5c6a
+  sha: 471dcb10d72416b62c213fee99f0d769368862fd
   specs:
     iszak-project (0.0.1)
       puppetlabs-apache (< 2.0.0, >= 1.4.0)
@@ -73,7 +66,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: e4c921ad5668c70751d7faa762972662aa3c352d
+  sha: 0c893a54c194665f0c51dcd350dc531930f85f7f
   specs:
     iszak-role (0.0.1)
 
@@ -81,7 +74,6 @@ DEPENDENCIES
   garethr-golang (~> 0.1.1)
   garethr-rustlang (~> 0.0.1)
   iszak-account (>= 0)
-  iszak-crashplan (>= 0)
   iszak-profile (>= 0)
   iszak-project (>= 0)
   iszak-role (>= 0)
