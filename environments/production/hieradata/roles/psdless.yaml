@@ -6,3 +6,5 @@ role::psdless::group: psdless
 role::psdless::web_host: psdless.com
 
 role::psdless::repo_source: git@bitbucket.org:iszak/psdless.git
+
+role::psdless::environment: production

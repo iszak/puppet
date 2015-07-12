@@ -1,9 +1,11 @@
 ---
 account:
     USERNAME:
-        email: EMAIL
-        name: FULLNAME
         user: USERNAME
 
+        git_email: EMAIL
+        git_name: FULLNAME
+
         postgresql: true
+        postgresql_user: USERNAME
         postgresql_password: md5PASSWORD_HASH

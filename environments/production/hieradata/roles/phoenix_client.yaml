@@ -7,3 +7,5 @@ role::phoenix_client::repo_path: client/
 role::phoenix_client::web_host: phoenixrpg.com
 
 role::phoenix_client::repo_source: git@bitbucket.org:iszak/phoenix-client.git
+
+role::phoenix_client::environment: production

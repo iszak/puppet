@@ -10,7 +10,6 @@ role::uploadir_api::database_password: md526abc04f4e0fd5082e2a2baccf35a1b1
 role::uploadir_api::repo_path: api
 role::uploadir_api::web_host: uploadir.dev
 
-role::uploadir_api::environment: development
-
 role::uploadir_api::repo_source: git@bitbucket.org:iszak/uploadir-api.git
-role::uploadir_api::web_path: public/
+
+role::uploadir_api::environment: development

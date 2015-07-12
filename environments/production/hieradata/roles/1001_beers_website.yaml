@@ -7,3 +7,5 @@ role::1001_beers_website::repo_path: website/
 role::1001_beers_website::web_host: 1001-beers.com
 
 role::1001_beers_website::repo_source: git@github.com:iszak/1001-beers-website.git
+
+role::1001_beers_website::environment: production

@@ -1,11 +1,13 @@
 ---
 account:
     iszak:
-        email: iszak.bryan@gmail.com
-        name: Iszak Bryan
         user: iszak
 
+        git_email: iszak.bryan@gmail.com
+        git_name: Iszak Bryan
+
         postgresql: true
+        postgresql_user: iszak
         postgresql_password: password
 
         packages:

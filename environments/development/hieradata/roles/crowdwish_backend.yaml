@@ -10,7 +10,6 @@ role::crowdwish_backend::database_password: md5554957fbfe164e6308e0a8dd09725ffe
 role::crowdwish_backend::repo_path: api
 role::crowdwish_backend::web_host: api.crowdwish.dev
 
-role::crowdwish_backend::environment: development
-
 role::crowdwish_backend::repo_source: git@git.kdigital.net:crowdwish/backend.git
-role::crowdwish_backend::web_path: web/public
+
+role::crowdwish_backend::environment: development

@@ -9,7 +9,6 @@ role::1001_beers_api::database_username: beers_1001_production
 role::1001_beers_api::repo_path: api/
 role::1001_beers_api::web_host: api.1001-beers.com
 
-role::1001_beers_api::environment: production
-
 role::1001_beers_api::repo_source: git@github.com:iszak/1001-beers-api.git
-role::1001_beers_api::web_path: public/
+
+role::1001_beers_api::environment: production

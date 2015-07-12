@@ -7,3 +7,5 @@ role::psdless::repo_path: psdless
 role::psdless::web_host: psdless.dev
 
 role::psdless::repo_source: git@bitbucket.org:iszak/psdless.git
+
+role::psdless::environment: development

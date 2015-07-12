@@ -8,3 +8,5 @@ role::crowdwish_client::repo_path: client
 role::crowdwish_client::web_host: crowdwish.dev
 
 role::crowdwish_client::repo_source: git@git.kdigital.net:crowdwish/client.git
+
+role::crowdwish_client::environment: development

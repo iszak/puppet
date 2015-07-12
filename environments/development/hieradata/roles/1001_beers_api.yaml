@@ -10,7 +10,6 @@ role::1001_beers_api::database_password: md5fc4875a964eb82e353e6d60463a292a5
 role::1001_beers_api::repo_path: api
 role::1001_beers_api::web_host: api.1001-beers.dev
 
-role::1001_beers_api::environment: development
-
 role::1001_beers_api::repo_source: git@github.com:iszak/1001-beers-api.git
-role::1001_beers_api::web_path: public/
+
+role::1001_beers_api::environment: development

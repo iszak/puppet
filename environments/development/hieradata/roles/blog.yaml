@@ -7,4 +7,5 @@ role::blog::repo_path: blog
 role::blog::web_host: blog.dev
 
 role::blog::repo_source: git@github.com:iszak/blog.git
-role::blog::web_path: _site/
+
+role::blog::environment: development
