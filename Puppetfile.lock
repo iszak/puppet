@@ -35,10 +35,11 @@ FORGE
 GIT
   remote: git://github.com/iszak/puppet-account.git
   ref: master
-  sha: b8270cc51d8fda1512b3d37de611bb82d11a3f07
+  sha: 5f0035dbff99a3599f5a4f4a81d56dc304ee4c3b
   specs:
     iszak-account (0.0.1)
       puppetlabs-git (< 1.0.0, >= 0.3.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
       puppetlabs-vcsrepo (< 2.0.0, >= 1.3.0)
 
 GIT
@@ -57,18 +58,20 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-project.git
   ref: master
-  sha: 471dcb10d72416b62c213fee99f0d769368862fd
+  sha: 3b6ee8dd4be3ffc6b0617fcbb771ece005ba9982
   specs:
     iszak-project (0.0.1)
       puppetlabs-apache (< 2.0.0, >= 1.4.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
       puppetlabs-vcsrepo (< 2.0.0, >= 1.3.0)
 
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: 0c893a54c194665f0c51dcd350dc531930f85f7f
+  sha: bc97315e088c41b6cd62dbe6cc5c7cc83bbe6a80
   specs:
     iszak-role (0.0.1)
+      puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
 
 DEPENDENCIES
   garethr-golang (~> 0.1.1)
