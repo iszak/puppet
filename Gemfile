@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "librarian-puppet", "~> 2.1.0"
+gem "librarian-puppet", "~> 2.2.1"
 
 group :development do
   gem "rake", "~> 10.4.2"
