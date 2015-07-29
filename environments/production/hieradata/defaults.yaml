@@ -1,5 +1,5 @@
 ---
 classes:
-    - role::uploadir_api
+    - "role::%{::role}"
 
 postgresql::server::listen_addresses: '*'
