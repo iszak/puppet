@@ -7,10 +7,7 @@
 
 :hierarchy:
     - private
-    - roles/uploadir
-    - roles/1001_beers_api
-    - roles/1001_beers_website
-    - roles/phoenix_client
+    - roles/%{::role}
     - users/iszak
     - defaults
 
