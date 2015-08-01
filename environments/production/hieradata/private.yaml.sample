@@ -1,0 +1,14 @@
+role::1001_beers::database_password: beers_1001_production
+role::1001_beers::secrets:
+    production:
+        secret_key_base: 
+
+account:
+    iszak:
+        ssh_key: ''
+        ssh_key_type: rsa
+        password: ''
+        postgresql_password: password
+
+postgresql::server::ipv4acls:
+    - host all iszak 0.0.0.0/0 md5
