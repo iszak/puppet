@@ -6,7 +6,7 @@ role::1001_beers::group: 1001_beers
 role::1001_beers::database_name: beers_1001_production
 role::1001_beers::database_username: beers_1001_production
 
-role::1001_beers::repo_path: /
+role::1001_beers::repo_path: ''
 role::1001_beers::web_host: 1001-beers.codefloat.com
 
 role::1001_beers::environment: production
