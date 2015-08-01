@@ -58,7 +58,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-project.git
   ref: master
-  sha: 399bb95e7a7b3f66dbe28377f5b463b5e96afe07
+  sha: a75930d483540d02cbb8a466f063e4a771b1c3d0
   specs:
     iszak-project (0.0.1)
       puppetlabs-apache (< 2.0.0, >= 1.4.0)
@@ -68,7 +68,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: 302e2439db0e5a18e04e6c7417fa9a646da2e02c
+  sha: 86627fbb9128459b854314e44eeb46bd33bd060d
   specs:
     iszak-role (0.0.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
