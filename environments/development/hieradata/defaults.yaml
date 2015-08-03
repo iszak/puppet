@@ -1,16 +1,18 @@
 ---
 classes:
-    - role::1001_beers_api
-    - role::1001_beers_website
+    - role::1001_beers
 
     - role::blog
 
-    - role::crowdwish_backend
-    - role::crowdwish_client
+    - role::crowdwish
+    # - role::crowdwish_backend
+    # - role::crowdwish_client
 
-    - role::phoenix_client
-    - role::phoenix_server
+    - role::phoenix
+    # - role::phoenix_client
+    # - role::phoenix_server
 
     - role::psdless
 
-    - role::uploadir_api
+    - role::uploadir
+    # - role::uploadir_api

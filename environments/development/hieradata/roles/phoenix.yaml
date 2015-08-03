@@ -1,0 +1,13 @@
+---
+role::phoenix::user: phoenix
+role::phoenix::owner: phoenix
+role::phoenix::group: phoenix
+
+role::phoenix::database_name: phoenix_development
+role::phoenix::database_username: phoenix_development
+role::phoenix::database_password: md5db530028e423b5b0c779ff74bebbc382
+
+role::phoenix::repo_path: ''
+role::phoenix::web_host: phoenix.dev
+
+role::phoenix::environment: development

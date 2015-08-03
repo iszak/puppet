@@ -10,20 +10,24 @@
 
     - users/user
 
-    - roles/1001_beers_api
-    - roles/1001_beers_website
+    - roles/1001_beers
+    # - roles/1001_beers_api
+    # - roles/1001_beers_website
 
     - roles/blog
 
-    - roles/crowdwish_backend
-    - roles/crowdwish_client
+    - roles/crowdwish
+    # - roles/crowdwish_backend
+    # - roles/crowdwish_client
 
-    - roles/phoenix_client
-    - roles/phoenix_server
+    - roles/phoenix
+    # - roles/phoenix_client
+    # - roles/phoenix_server
 
     - roles/psdless
 
-    - roles/uploadir_api
+    - roles/uploadir
+    # - roles/uploadir_api
 
     - defaults
 

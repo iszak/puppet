@@ -1,0 +1,12 @@
+---
+role::crowdwish::user: crowdwish
+role::crowdwish::owner: crowdwish
+role::crowdwish::group: crowdwish
+
+role::crowdwish::database_name: crowdwish_development
+role::crowdwish::database_username: crowdwish_development
+
+role::crowdwish::repo_path: ''
+role::crowdwish::web_host: crowdwish.dev
+
+role::crowdwish::environment: development
