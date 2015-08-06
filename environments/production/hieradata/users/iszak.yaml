@@ -4,6 +4,7 @@ account:
         user: iszak
 
         git_email: iszak.bryan@gmail.com
+        git_user: iszak
         git_name: Iszak Bryan
 
         postgresql: true
