@@ -35,7 +35,7 @@ FORGE
 GIT
   remote: git://github.com/iszak/puppet-account.git
   ref: master
-  sha: 9f6ce80f2a6b528d8841f1c25eb77f3a9ec4b0ab
+  sha: d7020934d0ac02bdd388d82506dac9133b789dd6
   specs:
     iszak-account (0.0.1)
       puppetlabs-git (< 1.0.0, >= 0.3.0)
