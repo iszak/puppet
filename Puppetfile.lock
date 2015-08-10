@@ -35,7 +35,7 @@ FORGE
 GIT
   remote: git://github.com/iszak/puppet-account.git
   ref: master
-  sha: d7020934d0ac02bdd388d82506dac9133b789dd6
+  sha: 1cae762a60624eb925c266ff151613c65dbb77c0
   specs:
     iszak-account (0.0.1)
       puppetlabs-git (< 1.0.0, >= 0.3.0)
@@ -45,7 +45,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-profile.git
   ref: master
-  sha: 5069f02eb1fdf323c0c903bb3b4f6bfc005197e7
+  sha: 49ea93ef601fbe4da2e315cdc55af4d93b107053
   specs:
     iszak-profile (0.0.1)
       puppetlabs-apache (< 2.0.0, >= 1.0.0)
@@ -58,7 +58,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-project.git
   ref: master
-  sha: 6eee03c7d87ba006a1bf2b3035d9acaca147e815
+  sha: a1e7e077fcf5ee2f4573c1bd8434520e1c8a0e54
   specs:
     iszak-project (0.0.1)
       puppetlabs-apache (< 2.0.0, >= 1.4.0)
@@ -68,7 +68,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: 0ed6f4d67210dbd9b33545991c1af4667c8e13e7
+  sha: d8fa7cfd6cf9e6b802732cdf1ec2147384f3349a
   specs:
     iszak-role (0.0.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
