@@ -12,4 +12,5 @@ group :development do
 
   gem 'puppet-lint', '~> 1.1.0'
   gem 'puppet-syntax', '~> 2.0.0'
+  gem 'metadata-json-lint', '~> 0.0.6'
 end
