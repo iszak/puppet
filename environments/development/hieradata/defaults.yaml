@@ -16,3 +16,5 @@ classes:
 
     - role::uploadir
     # - role::uploadir_api
+
+postgresql::server::listen_addresses: '*'
