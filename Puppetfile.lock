@@ -1,11 +1,16 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
+    dwerder-graphite (5.14.0)
+      puppetlabs-stdlib (>= 3.2.0)
     garethr-golang (0.1.1)
       puppetlabs-apt (>= 1.1.0)
       puppetlabs-stdlib (>= 3.2.0)
     garethr-rustlang (0.0.1)
       puppetlabs-apt (>= 1.1.0)
+      puppetlabs-stdlib (>= 3.2.0)
+    puppet-collectd (4.1.2)
+      puppetlabs-concat (>= 1.0.4)
       puppetlabs-stdlib (>= 3.2.0)
     puppetlabs-apache (1.6.0)
       puppetlabs-concat (< 2.0.0, >= 1.1.1)
@@ -35,7 +40,7 @@ FORGE
 GIT
   remote: git://github.com/iszak/puppet-account.git
   ref: master
-  sha: 1cae762a60624eb925c266ff151613c65dbb77c0
+  sha: 67fcc9ea6b2ba109da51912e145951c98857aa77
   specs:
     iszak-account (0.0.1)
       puppetlabs-git (< 1.0.0, >= 0.3.0)
@@ -45,14 +50,21 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-profile.git
   ref: master
-  sha: 49ea93ef601fbe4da2e315cdc55af4d93b107053
+  sha: ad9940b9dda1445f93cab00c52c40ecb1f30d7f9
   specs:
     iszak-profile (0.0.1)
+      dwerder-graphite (< 6.0.0, >= 5.0.0)
+      garethr-golang (< 1.0.0, >= 0.0.0)
+      garethr-rustlang (< 1.0.0, >= 0.0.0)
+      puppet-collectd (< 5.0.0, >= 4.0.0)
       puppetlabs-apache (< 2.0.0, >= 1.0.0)
       puppetlabs-apt (< 2.0.0, >= 1.0.0)
+      puppetlabs-concat (< 2.0.0, >= 1.0.0)
       puppetlabs-git (< 1.0.0, >= 0.0.0)
       puppetlabs-nodejs (< 1.0.0, >= 0.8.0)
+      puppetlabs-ntp (< 5.0.0, >= 4.0.0)
       puppetlabs-postgresql (< 5.0.0, >= 4.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
       saz-ssh (< 3.0.0, >= 2.0.0)
 
 GIT
@@ -68,14 +80,12 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: f13d7174de0fb4daf3fe07a3dc942e4ae155ff35
+  sha: 98131ec15f5324235c31b9e85c730627dce75858
   specs:
     iszak-role (0.0.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
 
 DEPENDENCIES
-  garethr-golang (~> 0.1.1)
-  garethr-rustlang (~> 0.0.1)
   iszak-account (>= 0)
   iszak-profile (>= 0)
   iszak-project (>= 0)
@@ -90,5 +100,4 @@ DEPENDENCIES
   puppetlabs-ruby (~> 0.4.0)
   puppetlabs-stdlib (~> 4.8.0)
   puppetlabs-vcsrepo (~> 1.3.1)
-  saz-ssh (~> 2.8.1)
 
