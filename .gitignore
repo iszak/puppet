@@ -3,3 +3,5 @@
 .tmp/
 vendor/
 .DS_Store
+psk
+csr_attributes.yaml
