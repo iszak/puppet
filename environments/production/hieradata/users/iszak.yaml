@@ -1,11 +1,11 @@
 ---
 account:
     iszak:
-        user: iszak
+        user: 'iszak'
 
-        git_email: iszak.bryan@gmail.com
-        git_user: iszak
-        git_name: Iszak Bryan
+        git_email: 'iszak.bryan@gmail.com'
+        git_user: 'iszak'
+        git_name: 'Iszak Bryan'
 
         packages:
             - vim
