@@ -50,7 +50,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-profile.git
   ref: master
-  sha: d60a5099e2a05be68314dfc2cc157e88aceeaf91
+  sha: 827fe6ee1649571eac6fee5a89ed32abff94efa2
   specs:
     iszak-profile (0.0.1)
       dwerder-graphite (< 6.0.0, >= 5.0.0)
@@ -81,7 +81,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: b85e8608218a86943595def5ec7db4883c3203c6
+  sha: ef94c4b6d2038cebf26ab633794a60c195128053
   specs:
     iszak-role (0.0.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
