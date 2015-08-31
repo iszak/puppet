@@ -1,7 +1,5 @@
 #!/bin/bash
-set -x
 
-echo "test" > /root/tets
 PSK_FILE=/etc/puppet/psk
 
 csr=$(< /dev/stdin)
