@@ -9,7 +9,7 @@ FORGE
     garethr-rustlang (0.0.1)
       puppetlabs-apt (>= 1.1.0)
       puppetlabs-stdlib (>= 3.2.0)
-    puppet-collectd (4.1.2)
+    puppet-collectd (4.2.0)
       puppetlabs-concat (>= 1.0.4)
       puppetlabs-stdlib (>= 3.2.0)
     puppetlabs-apache (1.6.0)
@@ -19,19 +19,31 @@ FORGE
       puppetlabs-stdlib (>= 2.2.1)
     puppetlabs-concat (1.2.4)
       puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-firewall (1.7.1)
     puppetlabs-git (0.4.0)
       puppetlabs-stdlib (>= 3.2.0)
+    puppetlabs-inifile (1.4.2)
+    puppetlabs-java (1.4.2)
+      puppetlabs-stdlib (< 5.0.0, >= 2.4.0)
+    puppetlabs-mongodb (0.11.0)
+      puppetlabs-apt (< 3.0.0, >= 1.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 2.2.0)
     puppetlabs-nodejs (0.8.0)
       puppetlabs-stdlib (< 5.0.0, >= 2.2.1)
     puppetlabs-ntp (4.1.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
-    puppetlabs-postgresql (4.5.0)
+    puppetlabs-postgresql (4.6.0)
       puppetlabs-apt (< 3.0.0, >= 1.8.0)
       puppetlabs-concat (< 2.0.0, >= 1.1.0)
       puppetlabs-stdlib (~> 4.0)
+    puppetlabs-puppetdb (4.3.0)
+      puppetlabs-firewall (< 2.0.0, >= 1.1.3)
+      puppetlabs-inifile (< 2.0.0, >= 1.1.3)
+      puppetlabs-postgresql (< 5.0.0, >= 4.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.2.2)
     puppetlabs-ruby (0.4.0)
       puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
-    puppetlabs-stdlib (4.8.0)
+    puppetlabs-stdlib (4.9.0)
     puppetlabs-vcsrepo (1.3.1)
     saz-ssh (2.8.1)
       puppetlabs-concat (>= 1.0.0)
@@ -50,7 +62,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-profile.git
   ref: master
-  sha: 827fe6ee1649571eac6fee5a89ed32abff94efa2
+  sha: 09ce6484975baef2111ae82dd9f98b8cbbbee8e1
   specs:
     iszak-profile (0.0.1)
       dwerder-graphite (< 6.0.0, >= 5.0.0)
@@ -60,10 +72,14 @@ GIT
       puppetlabs-apache (< 2.0.0, >= 1.0.0)
       puppetlabs-apt (< 2.0.0, >= 1.0.0)
       puppetlabs-concat (< 2.0.0, >= 1.0.0)
+      puppetlabs-firewall (< 2.0.0, >= 1.0.0)
       puppetlabs-git (< 1.0.0, >= 0.0.0)
+      puppetlabs-java (< 2.0.0, >= 1.0.0)
+      puppetlabs-mongodb (< 1.0.0, >= 0.0.0)
       puppetlabs-nodejs (< 1.0.0, >= 0.8.0)
       puppetlabs-ntp (< 5.0.0, >= 4.0.0)
       puppetlabs-postgresql (< 5.0.0, >= 4.0.0)
+      puppetlabs-puppetdb (< 5.0.0, >= 4.0.0)
       puppetlabs-ruby (< 1.0.0, >= 0.0.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
       saz-ssh (< 3.0.0, >= 2.0.0)
@@ -81,7 +97,7 @@ GIT
 GIT
   remote: git://github.com/iszak/puppet-role.git
   ref: master
-  sha: ef94c4b6d2038cebf26ab633794a60c195128053
+  sha: 90bf2e4c425df3aa146859c7307dc9f299d750a6
   specs:
     iszak-role (0.0.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
