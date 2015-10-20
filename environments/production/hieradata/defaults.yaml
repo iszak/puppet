@@ -1,5 +1,0 @@
----
-classes:
-    - "role::%{::role}"
-
-postgresql::server::listen_addresses: '*'
