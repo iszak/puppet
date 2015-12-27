@@ -3,4 +3,5 @@ require 'puppet-lint/tasks/puppet-lint'
 
 PuppetLint.configuration.send("disable_80chars")
 
-task :default => [:lint, :syntax]
+task :default => []
+task :test=> [:lint, :syntax]
