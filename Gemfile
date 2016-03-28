@@ -16,7 +16,7 @@ end
 
 
 group :development do
-  gem 'rake', '~> 11.1.1'
+  gem 'rake', '~> 11.1.2'
   gem 'hiera', '~> 3.1.1'
 
   gem 'puppetlabs_spec_helper', '~> 1.1.1'
